@@ -59,7 +59,7 @@ const highlightedCode = code ? highlightLAU(code) : '';
   </div>
 </div>
 
-<script is:inline>
+<script>
   document.querySelectorAll('.code-accordion-toggle').forEach((btn) => {
     btn.addEventListener('click', (e) => {
       if (e.target.closest('.copy-btn')) return;
